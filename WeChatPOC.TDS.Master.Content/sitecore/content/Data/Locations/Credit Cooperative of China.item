@@ -1,0 +1,169 @@
+----item----
+version: 1
+id: {7AF0F53E-24CB-4F2F-B78F-A51CE98CE3DE}
+database: master
+path: /sitecore/content/Data/Locations/Credit Cooperative of China
+parent: {AAB3C86F-6B62-4DCE-B8BE-146712E28F22}
+name: Credit Cooperative of China
+master: {00000000-0000-0000-0000-000000000000}
+template: {59F2DEB3-3AC6-4E80-A6A5-24497BC559B2}
+templatekey: Location Details
+created: 20180628T092955Z
+
+----field----
+field: {0E812E7E-949D-4317-A3EB-2D5F2EC15F2E}
+name: Zip Code
+key: zip code
+content-length: 6
+
+741020
+----field----
+field: {CA2795F7-B31E-46F2-A324-5AF52B36AEA0}
+name: Latitude
+key: latitude
+content-length: 10
+
+34.5232515
+----field----
+field: {EE0DA76D-109F-47F5-8B12-A5B73DE80D5D}
+name: Longitude
+key: longitude
+content-length: 11
+
+106.1077251
+----field----
+field: {4A75AD99-B6EC-41DF-8681-06A5E0E8C25C}
+name: Telephone
+key: telephone
+content-length: 27
+
+(010)63095718,(010)63095630
+----version----
+language: en
+version: 1
+revision: 44c7a41f-9cc4-4968-8f5f-df01a9add13e
+
+----field----
+field: {F9C30E49-B8F8-4681-B89A-1378916F67DA}
+name: Address
+key: address
+content-length: 20
+
+Niubei Hwy, Maiji Qu
+----field----
+field: {EB921140-D2AE-4184-B47C-BEB324EED3FE}
+name: City
+key: city
+content-length: 12
+
+Tianshui Shi
+----field----
+field: {59774788-371C-4E18-B0D5-31FAA6F84D59}
+name: State
+key: state
+content-length: 5
+
+Gansu
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180628T092955Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44c7a41f-9cc4-4968-8f5f-df01a9add13e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180821T111048Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: zh-CN
+version: 1
+revision: 370f5ee4-e790-416b-a495-79c92beea724
+
+----field----
+field: {F9C30E49-B8F8-4681-B89A-1378916F67DA}
+name: Address
+key: address
+content-length: 13
+
+甘肃省天水市麦积区牛北公路
+----field----
+field: {EB921140-D2AE-4184-B47C-BEB324EED3FE}
+name: City
+key: city
+content-length: 3
+
+天水市
+----field----
+field: {59774788-371C-4E18-B0D5-31FAA6F84D59}
+name: State
+key: state
+content-length: 2
+
+甘肃
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+中国信合
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180629T064924Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+370f5ee4-e790-416b-a495-79c92beea724
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180629T065036Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

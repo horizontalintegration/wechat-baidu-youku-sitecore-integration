@@ -1,0 +1,59 @@
+﻿@model BaiduMapIntergation.Models.LocationsViewModel
+
+<div>
+    <h3>@Sitecore.Context.Item["Title"]</h3>
+    
+    <div id="container"></div>
+
+</div>
+
+<script>
+    var model = @Html.Raw(Json.Encode(Model.Locations));
+</script>
+
+<script type="text/javascript">
+
+    //Baidu map API function
+    var map = new BMap.Map("container"); // Create a map instance    
+    map.enableScrollWheelZoom();
+
+    var data_info = [];
+
+    for (var index in model) {        
+        var loc = [model[index].Longitude, model[index].Latitude, model[index].Address];
+        data_info.push(loc);
+    }
+    
+    var opts = {
+        width: 250,     // information window width
+        height: 80,     // information window height
+        enableMessage: true // allow information window to send short messages
+    };
+
+    var points = [];
+
+    for (var i = 0; i < data_info.length; i++) {
+        var point = new BMap.Point(data_info[i][0], data_info[i][1]);
+        var marker = new BMap.Marker(point);  // create annotations
+        var content = data_info[i][2];
+        map.addOverlay(marker);               // Add the annotation to the map
+        addClickHandler(content, marker);
+        points.push(point);
+    }
+
+    function addClickHandler(content, marker) {
+        marker.addEventListener("click", function (e) {
+            openInfo(content, e)
+        });
+    }
+
+    function openInfo(content, e) {
+        var p = e.target;
+        var point = new BMap.Point(p.getPosition().lng, p.getPosition().lat);
+        var infoWindow = new BMap.InfoWindow(content, opts);  // Create info window object
+        map.openInfoWindow(infoWindow, point); // Open the info windo
+    }
+
+    map.setViewport(points);    
+
+</script>

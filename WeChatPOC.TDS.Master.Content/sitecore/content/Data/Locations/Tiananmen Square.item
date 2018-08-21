@@ -1,0 +1,169 @@
+----item----
+version: 1
+id: {D69F626C-3443-4F55-96E7-70C3249B01C5}
+database: master
+path: /sitecore/content/Data/Locations/Tiananmen Square
+parent: {AAB3C86F-6B62-4DCE-B8BE-146712E28F22}
+name: Tiananmen Square
+master: {00000000-0000-0000-0000-000000000000}
+template: {59F2DEB3-3AC6-4E80-A6A5-24497BC559B2}
+templatekey: Location Details
+created: 20180629T085936Z
+
+----field----
+field: {0E812E7E-949D-4317-A3EB-2D5F2EC15F2E}
+name: Zip Code
+key: zip code
+content-length: 6
+
+100000
+----field----
+field: {CA2795F7-B31E-46F2-A324-5AF52B36AEA0}
+name: Latitude
+key: latitude
+content-length: 9
+
+39.914887
+----field----
+field: {EE0DA76D-109F-47F5-8B12-A5B73DE80D5D}
+name: Longitude
+key: longitude
+content-length: 10
+
+116.403884
+----field----
+field: {4A75AD99-B6EC-41DF-8681-06A5E0E8C25C}
+name: Telephone
+key: telephone
+content-length: 27
+
+(010)63095718,(010)63095630
+----version----
+language: en
+version: 1
+revision: 158705bb-224b-4388-a7ab-4362150666ce
+
+----field----
+field: {F9C30E49-B8F8-4681-B89A-1378916F67DA}
+name: Address
+key: address
+content-length: 25
+
+North of Tiananmen Square
+----field----
+field: {EB921140-D2AE-4184-B47C-BEB324EED3FE}
+name: City
+key: city
+content-length: 9
+
+Dongcheng
+----field----
+field: {59774788-371C-4E18-B0D5-31FAA6F84D59}
+name: State
+key: state
+content-length: 7
+
+Beijing
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180629T085936Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+158705bb-224b-4388-a7ab-4362150666ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180821T111101Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: zh-CN
+version: 1
+revision: 54c15a9c-79a9-4dbe-b5ad-713d6c7cb342
+
+----field----
+field: {F9C30E49-B8F8-4681-B89A-1378916F67DA}
+name: Address
+key: address
+content-length: 13
+
+北京市东城区天安门广场北侧
+----field----
+field: {EB921140-D2AE-4184-B47C-BEB324EED3FE}
+name: City
+key: city
+content-length: 2
+
+东城
+----field----
+field: {59774788-371C-4E18-B0D5-31FAA6F84D59}
+name: State
+key: state
+content-length: 3
+
+东城区
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 3
+
+天安门
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180629T090325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54c15a9c-79a9-4dbe-b5ad-713d6c7cb342
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180629T091409Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

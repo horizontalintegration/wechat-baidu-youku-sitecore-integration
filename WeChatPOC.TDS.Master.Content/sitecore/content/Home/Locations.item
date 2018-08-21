@@ -1,0 +1,162 @@
+----item----
+version: 1
+id: {4C8E1B1F-3E24-4F40-9893-CEDCC54830BA}
+database: master
+path: /sitecore/content/Home/Locations
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: Locations
+master: {00000000-0000-0000-0000-000000000000}
+template: {3232AC40-99F7-478D-9C40-CA841BA6F951}
+templatekey: Locations
+created: 20180628T094424Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 201
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{6A42DF88-096C-4E08-A2EA-52A516B5B589}" s:id="{996CEB7C-EF0D-4FF8-B5EF-3B4353A9AAAF}" s:ph="content" /></d></r>
+----version----
+language: en
+version: 1
+revision: cadff1ba-6e5f-472f-abaa-3db0bc17e6ab
+
+----field----
+field: {7A97AD68-9D49-4E89-AD15-9CC4F084527C}
+name: Title
+key: title
+content-length: 9
+
+Locations
+----field----
+field: {EB9A6D60-DAF7-4FB3-9E99-A6B861483386}
+name: Locations
+key: locations
+content-length: 116
+
+{7AF0F53E-24CB-4F2F-B78F-A51CE98CE3DE}|{06059F24-85D4-49DF-9928-7F506D07D34C}|{92BA6E2A-4C12-4AC2-8A2C-94637B3BED4D}
+----field----
+field: {7D2F529F-A7B8-426C-A8A1-A3AC26FB7999}
+name: Address Label
+key: address label
+content-length: 7
+
+Address
+----field----
+field: {06B2FB5D-162A-4FFC-8BBA-6CFC41A499D2}
+name: Telephone Label
+key: telephone label
+content-length: 9
+
+Telephone
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180628T094424Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cadff1ba-6e5f-472f-abaa-3db0bc17e6ab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180629T115902Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: zh-CN
+version: 1
+revision: 782223a5-b24e-4a4f-b5da-d9b52b579077
+
+----field----
+field: {7A97AD68-9D49-4E89-AD15-9CC4F084527C}
+name: Title
+key: title
+content-length: 2
+
+地点
+----field----
+field: {EB9A6D60-DAF7-4FB3-9E99-A6B861483386}
+name: Locations
+key: locations
+content-length: 155
+
+{7AF0F53E-24CB-4F2F-B78F-A51CE98CE3DE}|{92BA6E2A-4C12-4AC2-8A2C-94637B3BED4D}|{06059F24-85D4-49DF-9928-7F506D07D34C}|{D69F626C-3443-4F55-96E7-70C3249B01C5}
+----field----
+field: {7D2F529F-A7B8-426C-A8A1-A3AC26FB7999}
+name: Address Label
+key: address label
+content-length: 2
+
+地址
+----field----
+field: {06B2FB5D-162A-4FFC-8BBA-6CFC41A499D2}
+name: Telephone Label
+key: telephone label
+content-length: 2
+
+电话
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 2
+
+地点
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180629T104109Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+782223a5-b24e-4a4f-b5da-d9b52b579077
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180629T130536Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

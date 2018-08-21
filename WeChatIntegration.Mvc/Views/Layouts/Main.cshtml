@@ -1,0 +1,36 @@
+﻿@using Sitecore.Mvc.Analytics.Extensions
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        #container {
+            width: 100%;
+            height: 700px;
+        }       
+    </style>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=bY4RsA4Dh5AgZ12WPKICpXuLPsMzKQNj"></script>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
+    <title>Welcome to Sitecore</title>
+
+    <link href="/default.css" rel="stylesheet" />
+
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+    @Html.Sitecore().Placeholder("content")
+</body>
+</html>
