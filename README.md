@@ -22,4 +22,4 @@ Implementation of below WeChat API methods:
 MVC web application which contains implementation of WeChat, Baidu Map and Youku video view and controller renderings.
 
 ## You can find more infromation about WeChat integration on below blog post:
-https://horizontalintegration.blog/2018/08/27/integrate-wechat…e-of-wechat-user/
+https://horizontalintegration.blog/2018/08/27/integrate-wechat-with-sitecore-and-create-contact-profile-of-wechat-user/
